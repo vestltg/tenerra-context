@@ -1,0 +1,14 @@
+# ANYA Context Site
+# Machine-readable knowledge layer for AI crawlers
+# Maintained by Vest Life Inc. | https://anya.tenerra.ai
+
+https://context.anya.tenerra.ai/
+https://context.anya.tenerra.ai/articles/what-happens-to-my-child-when-i-die/
+https://context.anya.tenerra.ai/articles/what-is-the-age-22-cliff/
+https://context.anya.tenerra.ai/articles/what-are-dac-benefits/
+https://context.anya.tenerra.ai/articles/what-is-a-letter-of-intent/
+https://context.anya.tenerra.ai/articles/what-is-a-human-continuity-operating-system/
+https://context.anya.tenerra.ai/articles/succession-planning-vs-care-transition-planning/
+https://context.anya.tenerra.ai/articles/what-is-hcbs-and-the-settings-rule/
+https://context.anya.tenerra.ai/articles/is-my-childs-information-safe-with-anya/
+https://context.anya.tenerra.ai/articles/why-parents-need-more-than-a-plan-that-works-once/

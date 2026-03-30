@@ -1,0 +1,13 @@
+{
+	"name": "tenerra-context",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Context site for context.anya.tenerra.ai",
+	"scripts": {
+		"build": "npx @11ty/eleventy",
+		"start": "npx @11ty/eleventy --serve"
+	},
+	"dependencies": {
+		"@11ty/eleventy": "^3.0.0"
+	}
+}

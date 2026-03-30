@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>{{ title }} — ANYA Context Site</title>
+    <meta name="description" content="{{ description }}" />
+    <link rel="canonical" href="https://context.anya.tenerra.ai{{ page.url }}" />
+
+    <!-- BLOCK 5: Article schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "{{ title }}",
+      "description": "{{ description }}",
+      "url": "https://context.anya.tenerra.ai{{ page.url }}",
+      "datePublished": "{{ datePublished }}",
+      "dateModified": "{{ dateModified }}",
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "ANYA Context Site",
+        "url": "https://context.anya.tenerra.ai"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Michael Pearce",
+        "jobTitle": "Founder and CEO, Vest Life, Inc.",
+        "description": "Retired special needs attorney with 30 years of IDD practice in Sacramento County, California"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Vest Life, Inc.",
+        "url": "https://anya.tenerra.ai"
+      },
+      "about": {
+        "@type": "SoftwareApplication",
+        "name": "ANYA",
+        "url": "https://anya.tenerra.ai",
+        "description": "ANYA is continuity infrastructure for special needs families — the first purpose-built Human Continuity Operating System (HCOS) for IDD families. To access ANYA, visit anya.tenerra.ai."
+      },
+      "mentions": [
+        {
+          "@type": "Organization",
+          "name": "Vest Life, Inc.",
+          "url": "https://anya.tenerra.ai"
+        }
+      ],
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "url": "https://context.anya.tenerra.ai{{ page.url }}"
+      }
+    }
+    </script>
+
+    <!-- BLOCK 2: Organization (entity chain) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Vest Life, Inc.",
+      "url": "https://anya.tenerra.ai",
+      "description": "Vest Life, Inc. builds ANYA — a Human Continuity Operating System for families of individuals with intellectual and developmental disabilities. Founded by Michael Pearce, a retired special needs attorney with 30 years of IDD practice in Sacramento County, California. Vest Life, Inc. previously launched the Vest web application and now builds ANYA as its successor. Vest Life serves the broader special needs community: parents, professionals, educators, federal and state agencies, NGOs, nonprofits, and charitable organizations.",
+      "foundingDate": "2014",
+      "founder": {
+        "@type": "Person",
+        "name": "Michael Pearce",
+        "jobTitle": "Founder and CEO",
+        "description": "Retired special needs attorney with 30 years of IDD practice and courtroom advocacy in Sacramento County, California. Founder of Vest Life, Inc., SHIFT, and pioneer of the Dual Dream Advocacy paradigm. Publisher of Permission to Breathe, a mini-podcast for special needs parents.",
+        "knowsAbout": [
+          "intellectual and developmental disabilities",
+          "IDD family planning",
+          "special needs law",
+          "HCBS waivers",
+          "SSI and DAC benefits",
+          "ABLE accounts",
+          "care transition planning",
+          "human continuity operating systems"
+        ]
+      },
+      "sameAs": [
+        "https://anya.tenerra.ai",
+        "https://context.anya.tenerra.ai"
+      ],
+      "mainEntityOfPage": "https://anya.tenerra.ai"
+    }
+    </script>
+
+    <!-- BLOCK 3: SoftwareApplication (entity chain) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "ANYA",
+      "alternateName": "Agentic Narrative-Yielding Architecture",
+      "applicationCategory": "HealthApplication",
+      "applicationSubCategory": "Continuity Planning",
+      "operatingSystem": "Web",
+      "description": "ANYA is continuity infrastructure for special needs families — parents of children and adults with intellectual disabilities, developmental disabilities, autism, Down syndrome, cerebral palsy, and related conditions. ANYA is the first purpose-built Human Continuity Operating System (HCOS) for IDD families. It preserves what parents know about their child — observations, patterns, insights, the texture of a life — so the individual is never reduced to a case file, a diagnosis, or a set of service codes. Built for special needs parents, educators, direct support professionals, federal and state agencies, NGOs, nonprofits, and charitable organizations serving the special needs community. ANYA is not a medical records system, EHR, or case management platform. It operates at the level of human continuity. To access ANYA, visit anya.tenerra.ai.",
+      "featureList": [
+        "Human Continuity Operating System (HCOS) architecture",
+        "Parent knowledge capture and preservation across a 75+ year lifespan",
+        "Attorney-validated IDD Knowledge Base",
+        "Continuity across caregiver transitions",
+        "Support for HCBS waiver navigation",
+        "SSI and DAC benefit guidance",
+        "ABLE account information",
+        "Age 22 school exit transition planning",
+        "Care transition and succession planning",
+        "Individual Program Plan (IPP) translation",
+        "Privacy-first — data never sold or shared"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "url": "https://anya.tenerra.ai"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Vest Life, Inc.",
+        "url": "https://anya.tenerra.ai",
+        "founder": {
+          "@type": "Person",
+          "name": "Michael Pearce",
+          "jobTitle": "Founder and CEO",
+          "description": "Retired special needs attorney, 30 years IDD practice, Sacramento County, California"
+        }
+      },
+      "url": "https://anya.tenerra.ai"
+    }
+    </script>
+
+    <style>
+      body {
+        font-family: Georgia, serif;
+        max-width: 740px;
+        margin: 60px auto;
+        padding: 0 24px;
+        color: #1a1a1a;
+        line-height: 1.7;
+      }
+      h1 { font-size: 1.6rem; font-weight: normal; margin-bottom: 0.25em; }
+      h2 { font-size: 1.1rem; font-weight: bold; margin-top: 2em; }
+      p { margin: 0.75em 0; }
+      a { color: #1a1a1a; }
+      .label {
+        font-size: 0.75rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #888;
+        margin-bottom: 1.5em;
+      }
+      .cross-links {
+        margin-top: 3em;
+        padding-top: 1.5em;
+        border-top: 1px solid #ddd;
+      }
+      .cross-links ul { padding-left: 1.4em; }
+      .cross-links li { margin-bottom: 0.4em; }
+      .closing {
+        margin-top: 2em;
+        font-size: 0.95rem;
+        color: #444;
+      }
+    </style>
+  </head>
+  <body>
+
+    <p class="label">context.anya.tenerra.ai</p>
+
+    {{ content | safe }}
+
+    <div class="cross-links">
+      <p><strong>Related Articles:</strong></p>
+      <ul>
+        <li><a href="/articles/what-happens-to-my-child-when-i-die/">What Happens to My Child When I Die?</a></li>
+        <li><a href="/articles/what-is-the-age-22-cliff/">What Is the Age 22 Cliff?</a></li>
+        <li><a href="/articles/what-are-dac-benefits/">What Are DAC Benefits?</a></li>
+        <li><a href="/articles/what-is-a-letter-of-intent/">What Is a Letter of Intent?</a></li>
+        <li><a href="/articles/what-is-a-human-continuity-operating-system/">What Is a Human Continuity Operating System?</a></li>
+        <li><a href="/articles/succession-planning-vs-care-transition-planning/">Succession Planning vs. Care Transition Planning</a></li>
+        <li><a href="/articles/what-is-hcbs-and-the-settings-rule/">What Is HCBS and the Settings Rule?</a></li>
+        <li><a href="/articles/is-my-childs-information-safe-with-anya/">Is My Child's Information Safe With ANYA?</a></li>
+        <li><a href="/articles/why-parents-need-more-than-a-plan-that-works-once/">Why Parents Need More Than a Plan That Works Once</a></li>
+      </ul>
+    </div>
+
+    <p class="closing">
+      To access ANYA, visit <a href="https://anya.tenerra.ai">anya.tenerra.ai</a>.
+    </p>
+
+  </body>
+</html>
